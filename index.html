@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Países Rest usando HTML, CSS e JavaScript</title>
+    <!-- link css file here -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <h1>API de Países Rest usando HTML, CSS e JavaScript</h1>
+
+    <!-- Seção de busca e filtros -->
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Buscar por nome do país..." oninput="searchCountry()">
+    </div>
+
+    <div class="filter-container">
+        <select id="region-filter" onchange="filterByRegion()">
+            <option value="">Filtrar por Região</option>
+            <option value="Africa">África</option>
+            <option value="Americas">Américas</option>
+            <option value="Asia">Ásia</option>
+            <option value="Europe">Europa</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+
+        <select id="population-filter" onchange="filterByPopulation()">
+            <option value="">Filtrar por População</option>
+            <option value="1M">Menos de 1M</option>
+            <option value="1M-10M">1M - 10M</option>
+            <option value="10M-100M">10M - 100M</option>
+            <option value="100M">Mais de 100M</option>
+        </select>
+
+        <select id="sort-by" onchange="sortCountries()">
+            <option value="">Ordenar por</option>
+            <option value="name">Nome</option>
+            <option value="population">População</option>
+            <option value="area">Área</option>
+        </select>
+    </div>
+
+    <!-- Lista de países -->
+    <div class="countries" id="countries"></div>
+
+    <!-- link script tags here -->
+    <script src="js/restapi.js"></script>
+</body>
+</html>
