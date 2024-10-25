@@ -1,5 +1,5 @@
-# Projeto de Frontend
- 
+# Projeto de Frontend  [site](https://api-rest-countries-weld.vercel.app)
+ [video](https://www.youtube.com/watch?v=oAEwp0AGmSo)
 
 
 Este projeto é um site que exibe informações sobre países utilizando uma API REST. O site foi desenvolvido com HTML, CSS e JavaScript e é direcionado para o público brasileiro.
