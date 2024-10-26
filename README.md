@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&color=E4E4E4"/>
+
 # Projeto de Frontend  
 
 
@@ -37,3 +39,5 @@ O site foi desenvolvido com foco no público brasileiro, mas pode ser adaptado p
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
 </div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&color=E4E4E4&reversal=false&section=footer"/>
